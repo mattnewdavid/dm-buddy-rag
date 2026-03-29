@@ -4,3 +4,4 @@ openai
 tavily-python
 python-dotenv
 pydantic
+sqlalchemy

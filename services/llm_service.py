@@ -1,6 +1,6 @@
 from tavily import TavilyClient
 from openai import OpenAI
-from config import OPENAI_API_KEY, TAVILY_API_KEY, MODEL
+from config.settings import OPENAI_API_KEY, TAVILY_API_KEY, MODEL
 
 
 tavily = TavilyClient(api_key=TAVILY_API_KEY)
